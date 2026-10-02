@@ -1,0 +1,14 @@
+.palya {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(72px, 90px));
+	justify-content: center;
+	gap: 8px;
+}
+
+.palya__mezo {
+	width: 100%;
+	aspect-ratio: 1;
+	border: 1px solid #d5ddd3;
+	border-radius: 6px;
+	background: #e9eee5;
+}
